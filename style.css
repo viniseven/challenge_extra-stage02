@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    --bg-color: #FFFFFF;
+    --fc-span: #EE24FF;
+    --fc-color-primary: #3F3D56;
+    --fc-color-secondary: #828282;
+}
+
+body{
+    background-color: var(--bg-color);
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    margin:  6.4rem auto;
+    width: 62.6rem;
+}
+
+main h1{
+    margin: 3.2rem 0 1.6rem;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 500;
+    color: var(--fc-color-primary);
+    font-size: 3.2rem;
+    line-height: 4rem;
+}
+
+main h1 span{
+    color: var(--fc-span);
+    font-weight: bold;
+}
+
+main p{
+    font-size: 1.5rem;
+    color: var(--fc-color-secondary);
+    line-height: 2.2rem;
+    padding: 0 3rem;
+}
+
+main p span{
+    font-weight: bold;
+    color: var(--fc-color-primary);
+}
+
+p:nth-child(3n+1){
+    margin-top: 3.2rem;
+}
+
+footer{
+    margin: 0 auto;
+    width: 100%;
+}
+
+#line{
+    border: 1px solid #ECEFF2;
+    width: 391px;
+    margin: 0 auto;
+}
+
+.links{
+    margin-top: 1.6rem;
+    display: flex;
+    justify-content: center;
+    gap: 4.2rem;
+
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.links a{
+    text-decoration: none;
+    color: var(--fc-color-primary);
+}
+
+.wave{
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    height: 104px;
+    width: 100%;
+}
+.wave img{
+    width: 100%;
+}
+   
